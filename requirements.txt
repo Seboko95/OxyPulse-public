@@ -1,0 +1,28 @@
+# ── Core runtime ──────────────────────────────────────────────────────────────
+python-dotenv>=1.0.0
+httpx>=0.27.0
+aiohttp>=3.9.0
+
+# ── Telegram ──────────────────────────────────────────────────────────────────
+python-telegram-bot>=21.0.0
+
+# ── FastAPI dashboard ─────────────────────────────────────────────────────────
+fastapi>=0.111.0
+uvicorn[standard]>=0.29.0
+
+# ── Database ──────────────────────────────────────────────────────────────────
+# sqlite3 is stdlib — no install needed
+
+# ── Exchange / crypto ─────────────────────────────────────────────────────────
+websockets>=12.0
+
+# ── Data / analysis ───────────────────────────────────────────────────────────
+# All indicators are pure Python (no numpy/pandas required)
+
+# ── Utilities ─────────────────────────────────────────────────────────────────
+requests>=2.31.0
+
+# ── Optional: Polymarket / prediction markets ─────────────────────────────────
+py-clob-client
+eth-account
+web3
